@@ -1,0 +1,16 @@
+{
+  "name": "authentification",
+  "version": "1.0.0",
+  "description": "Authentification ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"  cd server && npm run dev  \"       \"   cd client && npm start   \"  "
+  },
+  "author": "Nesrine",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "reactstrap": "^8.9.0"
+  }
+}
